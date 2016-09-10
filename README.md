@@ -16,6 +16,20 @@ Project currently has only one api:
  - ```/collections/{id}``` , ```id```- limited unique number, e.g starts from 1.
  Above api creates get request to ```http://www.ebay.co.uk/today``` and populates images. Ids for the images are based on the images order on the page.
 
+<hr />
+
+Technology stack:
+- Hapi.js http://hapijs.com/
+- Handlebars https://www.npmjs.com/package/handlebars
+- Request https://www.npmjs.com/package/request
+- Cheerio https://www.npmjs.com/package/cheerio
+- Heroku cloud https://www.heroku.com/
+  - testing & coverage:
+    - tape https://github.com/substack/tape
+    - istanbul https://github.com/gotwarlost/istanbul
+    - travis https://travis-ci.org/
+    - codecov https://codecov.io
+
 ### How to run this repo:
 
 - clone this repo
