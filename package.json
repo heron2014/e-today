@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/heron2014/e-today#readme",
   "dependencies": {
+    "handlebars": "^4.0.5",
     "hapi": "^15.0.3",
     "hoek": "^4.0.2",
     "inert": "^4.0.2",
