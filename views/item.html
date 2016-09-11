@@ -1,5 +1,16 @@
-<img src="{{imgSrc}}" alt="" />
+<div class="wrapper">
+  {{#if imgSrc}}
+  <img src="{{imgSrc}}" alt="" />
+  <div>
+    <a href="{{prevPage}}">Prev</a>
+    <apn>{{id}} / {{totalImg}}</apn>
+    <a href="{{nextPage}}">Next</a>
 
-{{#if msg}}
-  <p class="msg">{{msg}}</p>
-{{/if}}
+  </div>
+  {{else}}
+  <p class="info">No more daily images</p>
+  <div>
+    <a href="/collections/1">Take me home</a>
+  </div>
+  {{/if}}
+</div>

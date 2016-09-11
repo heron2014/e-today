@@ -20,7 +20,7 @@ test('GET /collections/50 displays message: No more daily images', (t) => {
   server.inject({url: '/collections/50', method: 'GET'}, (response) => {
     let $ = Cheerio.load(response.payload);
 
-    t.equals($('.msg').text(), 'No more daily images', 'Message is shown on the page');
+    t.equals($('.info').text(), 'No more daily images', 'Message text is equal to : no more photos');
     t.equals(response.statusCode, 200, 'Status code 200');
     t.end();
   });
