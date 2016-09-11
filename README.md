@@ -12,7 +12,7 @@ Basic interface for populating images from ebay-today
 
 ### What
 
-Project currently has only one api:
+Project has only one api:
  - ```/collections/{id}``` , ```id```- limited unique number, e.g starts from 1.
  Above api creates get request to ```http://www.ebay.co.uk/today``` and populates images. Ids for the images are based on the images order on the page.
 

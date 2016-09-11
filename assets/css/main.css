@@ -1,0 +1,39 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.wrapper {
+  margin-top: 80px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrapper > img {
+  align-self: center;
+  justify-content: center;
+  /*width: 400px;*/
+  box-shadow: 0 0 0 10px hsla(0, 17%, 95%, 0.87), 0 0 0 20px hsla(0, 15%, 92%, 0.9);
+}
+
+.wrapper > div, .wrapper > p {
+  margin-top: 60px;
+  align-self: center;
+  justify-content: center;
+}
+
+a {
+  background-color: #ee5055;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #D87679;
+}
